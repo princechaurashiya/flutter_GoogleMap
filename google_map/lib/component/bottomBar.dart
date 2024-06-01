@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_2/component/serch_button.dart';
 import 'package:flutter_application_2/pages/contribution.dart';
 import 'package:flutter_application_2/pages/currnt_location.dart';
+import 'package:flutter_application_2/pages/saved.dart';
 import 'package:flutter_application_2/pages/update.dart';
 
 class BottombarNav extends StatefulWidget {
@@ -27,9 +28,7 @@ class _BottombarNavState extends State<BottombarNav> {
     Center(
       child: Text('Card'),
     ),
-    Center(
-      child: Text('Like'),
-    ),
+    Saved(),
     Contribution(),
     Updates()
   ];

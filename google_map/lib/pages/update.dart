@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/component/bottomBar.dart';
+import 'package:flutter_application_2/component/bottomNavBar.dart';
 import 'package:flutter_application_2/component/serch_button.dart';
 
 class Updates extends StatefulWidget {

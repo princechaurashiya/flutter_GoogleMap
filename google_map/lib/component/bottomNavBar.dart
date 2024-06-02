@@ -25,9 +25,7 @@ class _BottombarNavState extends State<BottombarNav> {
 
   List<Widget> pages = [
     UserCurrentLocation(),
-    Center(
-      child: Text('Card'),
-    ),
+    UserCurrentLocation(),
     Saved(),
     Contribution(),
     Updates()

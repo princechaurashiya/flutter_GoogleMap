@@ -4,7 +4,7 @@ Widget Post2photo() {
   return Padding(
     padding: const EdgeInsets.all(8.0),
     child: Container(
-      height: 60,
+      height: 50,
       width: double.infinity,
       decoration: BoxDecoration(
           border: Border.all(color: Color.fromARGB(255, 209, 206, 206)),
@@ -17,7 +17,7 @@ Widget Post2photo() {
             child: Text('Post 2 photos'),
           ),
           SizedBox(
-            width: 180,
+            width: 18,
           ),
           Text('0/2'),
           Padding(

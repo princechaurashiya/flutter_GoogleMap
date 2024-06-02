@@ -42,10 +42,10 @@ class _ContributionState extends State<Contribution> {
               ),
               Updateplaceicon(),
               Container(
-                  height: 380,
+                  height: 390,
                   width: double.infinity,
                   decoration: BoxDecoration(
-                      // color: Color.fromARGB(255, 228, 231, 234),
+                      //color: Color.fromARGB(255, 228, 231, 234),
                       border:
                           Border.all(color: Color.fromARGB(255, 199, 197, 197)),
                       borderRadius: BorderRadius.circular(20)),

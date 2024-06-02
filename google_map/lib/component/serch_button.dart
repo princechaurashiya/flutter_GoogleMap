@@ -10,12 +10,17 @@ Widget SearchButton() {
       decoration: BoxDecoration(
           color: Colors.white, borderRadius: BorderRadius.circular(30)),
       child: TextFormField(
-        decoration: const InputDecoration(
+        decoration: InputDecoration(
           contentPadding: EdgeInsets.only(left: 8.0, top: 8),
           prefixIcon: Padding(
-            padding: EdgeInsets.only(left: 10, top: 6),
-            child: Icon(Icons.location_on),
-          ),
+              padding: EdgeInsets.only(left: 10, top: 6),
+              child: Container(
+                height: 30,
+                width: 30,
+                child: Image.asset(
+                  'assets/images/location.jpg',
+                ),
+              )),
           hintText: 'Search here',
           border: InputBorder.none,
           suffixIcon: Padding(

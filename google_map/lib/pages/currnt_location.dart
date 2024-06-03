@@ -54,40 +54,6 @@ class _UserCurrentLocationState extends State<UserCurrentLocation> {
     return await Geolocator.getCurrentPosition();
   }
 
-// BtNavBar
-
-//   int current_index_value = 0;
-
-// void onChangePage(int index){
-//   setState(() {
-//     current_index_value = index;
-//   });
-// }
-
-// List <Widget> pages[
-
-//    Center(
-//       child: Text('Home '),
-//     ),
-//     Center(
-//       child: Text('Card'),
-//     ),
-//     Center(
-//       child: Text('Like'),
-//     ),
-//     Center(
-//       child: Text('Profile'),
-//     )
-
-// ];
-
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   super.initState();
-  //   //loadLocation();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
